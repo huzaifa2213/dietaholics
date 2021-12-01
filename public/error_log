@@ -1,0 +1,210 @@
+[23-Oct-2021 16:34:53 America/Chicago] PHP Warning:  Uncaught ErrorException: require_once(/home/diethxvo/dietaholics.com/public/SCRIPT/apl_core_configuration.php): failed to open stream: No such file or directory in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php:10
+Stack trace:
+#0 /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(/h...', '/home/diethxvo/...', 10, Array)
+#1 /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php(10): require_once()
+#2 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(294): include_once('/home/diethxvo/...')
+#3 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('/home/diethxvo/...')
+#4 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\Cus...')
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\Cus...')
+#6 /home/diethxvo/dietaholics.com/system/ in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php on line 10
+[23-Oct-2021 16:34:53 America/Chicago] PHP Fatal error:  CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '/home/diethxvo/dietaholics.com/public/SCRIPT/apl_core_configuration.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php on line 10
+[23-Oct-2021 16:34:59 America/Chicago] PHP Warning:  Uncaught ErrorException: require_once(/home/diethxvo/dietaholics.com/public/SCRIPT/apl_core_configuration.php): failed to open stream: No such file or directory in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php:10
+Stack trace:
+#0 /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(/h...', '/home/diethxvo/...', 10, Array)
+#1 /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php(10): require_once()
+#2 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(294): include_once('/home/diethxvo/...')
+#3 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('/home/diethxvo/...')
+#4 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\Cus...')
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\Cus...')
+#6 /home/diethxvo/dietaholics.com/system/ in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php on line 10
+[23-Oct-2021 16:34:59 America/Chicago] PHP Fatal error:  CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '/home/diethxvo/dietaholics.com/public/SCRIPT/apl_core_configuration.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php on line 10
+[23-Oct-2021 16:36:52 America/Chicago] PHP Warning:  Uncaught ErrorException: require_once(/home/diethxvo/dietaholics.com/public/SCRIPT/apl_core_configuration.php): failed to open stream: No such file or directory in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php:10
+Stack trace:
+#0 /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(/h...', '/home/diethxvo/...', 10, Array)
+#1 /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php(10): require_once()
+#2 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(294): include_once('/home/diethxvo/...')
+#3 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('/home/diethxvo/...')
+#4 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\Cus...')
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\Cus...')
+#6 /home/diethxvo/dietaholics.com/system/ in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php on line 10
+[23-Oct-2021 16:36:52 America/Chicago] PHP Fatal error:  CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '/home/diethxvo/dietaholics.com/public/SCRIPT/apl_core_configuration.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php on line 10
+[23-Oct-2021 16:44:27 America/Chicago] PHP Warning:  Uncaught ErrorException: require_once(/home/diethxvo/dietaholics.com/public/SCRIPT/apl_core_configuration.php): failed to open stream: No such file or directory in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php:10
+Stack trace:
+#0 /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(/h...', '/home/diethxvo/...', 10, Array)
+#1 /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php(10): require_once()
+#2 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(294): include_once('/home/diethxvo/...')
+#3 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('/home/diethxvo/...')
+#4 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\Cus...')
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\Cus...')
+#6 /home/diethxvo/dietaholics.com/system/ in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php on line 10
+[23-Oct-2021 16:44:27 America/Chicago] PHP Fatal error:  CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '/home/diethxvo/dietaholics.com/public/SCRIPT/apl_core_configuration.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php on line 10
+[23-Oct-2021 16:45:19 America/Chicago] PHP Warning:  Uncaught ErrorException: require_once(/home/diethxvo/dietaholics.com/public/SCRIPT/apl_core_configuration.php): failed to open stream: No such file or directory in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php:10
+Stack trace:
+#0 /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(/h...', '/home/diethxvo/...', 10, Array)
+#1 /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php(10): require_once()
+#2 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(294): include_once('/home/diethxvo/...')
+#3 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('/home/diethxvo/...')
+#4 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\Cus...')
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\Cus...')
+#6 /home/diethxvo/dietaholics.com/system/ in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php on line 10
+[23-Oct-2021 16:45:19 America/Chicago] PHP Fatal error:  CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '/home/diethxvo/dietaholics.com/public/SCRIPT/apl_core_configuration.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php on line 10
+[23-Oct-2021 16:45:28 America/Chicago] PHP Warning:  Uncaught ErrorException: require_once(/home/diethxvo/dietaholics.com/public/SCRIPT/apl_core_configuration.php): failed to open stream: No such file or directory in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php:10
+Stack trace:
+#0 /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(/h...', '/home/diethxvo/...', 10, Array)
+#1 /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php(10): require_once()
+#2 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(294): include_once('/home/diethxvo/...')
+#3 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('/home/diethxvo/...')
+#4 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\Cus...')
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\Cus...')
+#6 /home/diethxvo/dietaholics.com/system/ in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php on line 10
+[23-Oct-2021 16:45:28 America/Chicago] PHP Fatal error:  CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '/home/diethxvo/dietaholics.com/public/SCRIPT/apl_core_configuration.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php on line 10
+[23-Oct-2021 16:54:22 America/Chicago] PHP Warning:  Uncaught ErrorException: require_once(/home/diethxvo/dietaholics.com/public/SCRIPT/apl_core_configuration.php): failed to open stream: No such file or directory in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php:10
+Stack trace:
+#0 /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(/h...', '/home/diethxvo/...', 10, Array)
+#1 /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php(10): require_once()
+#2 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(294): include_once('/home/diethxvo/...')
+#3 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('/home/diethxvo/...')
+#4 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\Cus...')
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\Cus...')
+#6 /home/diethxvo/dietaholics.com/system/ in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php on line 10
+[23-Oct-2021 16:54:22 America/Chicago] PHP Fatal error:  CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '/home/diethxvo/dietaholics.com/public/SCRIPT/apl_core_configuration.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php on line 10
+[23-Oct-2021 16:54:25 America/Chicago] PHP Warning:  Uncaught ErrorException: require_once(/home/diethxvo/dietaholics.com/public/SCRIPT/apl_core_configuration.php): failed to open stream: No such file or directory in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php:10
+Stack trace:
+#0 /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(/h...', '/home/diethxvo/...', 10, Array)
+#1 /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php(10): require_once()
+#2 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(294): include_once('/home/diethxvo/...')
+#3 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('/home/diethxvo/...')
+#4 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\Cus...')
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\Cus...')
+#6 /home/diethxvo/dietaholics.com/system/ in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php on line 10
+[23-Oct-2021 16:54:25 America/Chicago] PHP Fatal error:  CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '/home/diethxvo/dietaholics.com/public/SCRIPT/apl_core_configuration.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php on line 10
+[23-Oct-2021 16:54:33 America/Chicago] PHP Warning:  Uncaught ErrorException: require_once(/home/diethxvo/dietaholics.com/public/SCRIPT/apl_core_configuration.php): failed to open stream: No such file or directory in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php:10
+Stack trace:
+#0 /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(/h...', '/home/diethxvo/...', 10, Array)
+#1 /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php(10): require_once()
+#2 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(294): include_once('/home/diethxvo/...')
+#3 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('/home/diethxvo/...')
+#4 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\Cus...')
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\Cus...')
+#6 /home/diethxvo/dietaholics.com/system/ in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php on line 10
+[23-Oct-2021 16:54:33 America/Chicago] PHP Fatal error:  CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '/home/diethxvo/dietaholics.com/public/SCRIPT/apl_core_configuration.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php on line 10
+[23-Oct-2021 16:54:50 America/Chicago] PHP Warning:  Uncaught ErrorException: require_once(/home/diethxvo/dietaholics.com/public/SCRIPT/apl_core_configuration.php): failed to open stream: No such file or directory in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php:10
+Stack trace:
+#0 /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(/h...', '/home/diethxvo/...', 10, Array)
+#1 /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php(10): require_once()
+#2 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(294): include_once('/home/diethxvo/...')
+#3 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('/home/diethxvo/...')
+#4 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\Cus...')
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\Cus...')
+#6 /home/diethxvo/dietaholics.com/system/ in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php on line 10
+[23-Oct-2021 16:54:50 America/Chicago] PHP Fatal error:  CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '/home/diethxvo/dietaholics.com/public/SCRIPT/apl_core_configuration.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php on line 10
+[23-Oct-2021 16:55:34 America/Chicago] PHP Warning:  Uncaught ErrorException: require_once(/home/diethxvo/dietaholics.com/public/SCRIPT/apl_core_configuration.php): failed to open stream: No such file or directory in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php:10
+Stack trace:
+#0 /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(/h...', '/home/diethxvo/...', 10, Array)
+#1 /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php(10): require_once()
+#2 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(294): include_once('/home/diethxvo/...')
+#3 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('/home/diethxvo/...')
+#4 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\Cus...')
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\Cus...')
+#6 /home/diethxvo/dietaholics.com/system/ in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php on line 10
+[23-Oct-2021 16:55:34 America/Chicago] PHP Fatal error:  CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '/home/diethxvo/dietaholics.com/public/SCRIPT/apl_core_configuration.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php on line 10
+[23-Oct-2021 16:55:45 America/Chicago] PHP Warning:  Uncaught ErrorException: require_once(/home/diethxvo/dietaholics.com/public/SCRIPT/apl_core_configuration.php): failed to open stream: No such file or directory in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php:10
+Stack trace:
+#0 /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(/h...', '/home/diethxvo/...', 10, Array)
+#1 /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php(10): require_once()
+#2 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(294): include_once('/home/diethxvo/...')
+#3 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('/home/diethxvo/...')
+#4 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\Cus...')
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\Cus...')
+#6 /home/diethxvo/dietaholics.com/system/ in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php on line 10
+[23-Oct-2021 16:55:45 America/Chicago] PHP Fatal error:  CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '/home/diethxvo/dietaholics.com/public/SCRIPT/apl_core_configuration.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php on line 10
+[09-Nov-2021 08:27:29 America/Chicago] PHP Warning:  Uncaught ErrorException: require_once(/home/diethxvo/dietaholics.com/public/SCRIPT/apl_core_configuration.php): failed to open stream: No such file or directory in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php:10
+Stack trace:
+#0 /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(/h...', '/home/diethxvo/...', 10, Array)
+#1 /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php(10): require_once()
+#2 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(294): include_once('/home/diethxvo/...')
+#3 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('/home/diethxvo/...')
+#4 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\Cus...')
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\Cus...')
+#6 /home/diethxvo/dietaholics.com/system/ in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php on line 10
+[09-Nov-2021 08:27:29 America/Chicago] PHP Fatal error:  CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '/home/diethxvo/dietaholics.com/public/SCRIPT/apl_core_configuration.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php on line 10
+[09-Nov-2021 08:27:35 America/Chicago] PHP Warning:  Uncaught ErrorException: require_once(/home/diethxvo/dietaholics.com/public/SCRIPT/apl_core_configuration.php): failed to open stream: No such file or directory in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php:10
+Stack trace:
+#0 /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(/h...', '/home/diethxvo/...', 10, Array)
+#1 /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php(10): require_once()
+#2 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(294): include_once('/home/diethxvo/...')
+#3 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('/home/diethxvo/...')
+#4 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\Cus...')
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\Cus...')
+#6 /home/diethxvo/dietaholics.com/system/ in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php on line 10
+[09-Nov-2021 08:27:35 America/Chicago] PHP Fatal error:  CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '/home/diethxvo/dietaholics.com/public/SCRIPT/apl_core_configuration.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php on line 10
+[15-Nov-2021 03:02:54 America/Chicago] PHP Warning:  Uncaught ErrorException: require_once(/home/diethxvo/dietaholics.com/public/SCRIPT/apl_core_configuration.php): failed to open stream: No such file or directory in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php:10
+Stack trace:
+#0 /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(/h...', '/home/diethxvo/...', 10, Array)
+#1 /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php(10): require_once()
+#2 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(294): include_once('/home/diethxvo/...')
+#3 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('/home/diethxvo/...')
+#4 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\Cus...')
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\Cus...')
+#6 /home/diethxvo/dietaholics.com/system/ in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php on line 10
+[15-Nov-2021 03:02:54 America/Chicago] PHP Fatal error:  CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '/home/diethxvo/dietaholics.com/public/SCRIPT/apl_core_configuration.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php on line 10
+[19-Nov-2021 13:12:42 America/Chicago] PHP Warning:  Uncaught ErrorException: require_once(/home/diethxvo/dietaholics.com/public/SCRIPT/apl_core_configuration.php): failed to open stream: No such file or directory in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php:10
+Stack trace:
+#0 /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(/h...', '/home/diethxvo/...', 10, Array)
+#1 /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php(10): require_once()
+#2 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(294): include_once('/home/diethxvo/...')
+#3 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('/home/diethxvo/...')
+#4 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\Cus...')
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\Cus...')
+#6 /home/diethxvo/dietaholics.com/system/ in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php on line 10
+[19-Nov-2021 13:12:42 America/Chicago] PHP Fatal error:  CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '/home/diethxvo/dietaholics.com/public/SCRIPT/apl_core_configuration.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php on line 10
+[22-Nov-2021 13:00:25 America/Chicago] PHP Warning:  Uncaught ErrorException: require_once(/home/diethxvo/dietaholics.com/public/SCRIPT/apl_core_configuration.php): failed to open stream: No such file or directory in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php:10
+Stack trace:
+#0 /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(/h...', '/home/diethxvo/...', 10, Array)
+#1 /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php(10): require_once()
+#2 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(294): include_once('/home/diethxvo/...')
+#3 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('/home/diethxvo/...')
+#4 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\Cus...')
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\Cus...')
+#6 /home/diethxvo/dietaholics.com/system/ in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php on line 10
+[22-Nov-2021 13:00:25 America/Chicago] PHP Fatal error:  CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '/home/diethxvo/dietaholics.com/public/SCRIPT/apl_core_configuration.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php on line 10
+[22-Nov-2021 22:51:53 America/Chicago] PHP Warning:  Uncaught ErrorException: require_once(/home/diethxvo/dietaholics.com/public/SCRIPT/apl_core_configuration.php): failed to open stream: No such file or directory in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php:10
+Stack trace:
+#0 /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(/h...', '/home/diethxvo/...', 10, Array)
+#1 /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php(10): require_once()
+#2 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(294): include_once('/home/diethxvo/...')
+#3 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('/home/diethxvo/...')
+#4 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\Cus...')
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\Cus...')
+#6 /home/diethxvo/dietaholics.com/system/ in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php on line 10
+[22-Nov-2021 22:51:53 America/Chicago] PHP Fatal error:  CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '/home/diethxvo/dietaholics.com/public/SCRIPT/apl_core_configuration.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php on line 10
+[23-Nov-2021 01:48:20 America/Chicago] PHP Warning:  Uncaught ErrorException: require_once(/home/diethxvo/dietaholics.com/public/SCRIPT/apl_core_configuration.php): failed to open stream: No such file or directory in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php:10
+Stack trace:
+#0 /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(/h...', '/home/diethxvo/...', 10, Array)
+#1 /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php(10): require_once()
+#2 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(294): include_once('/home/diethxvo/...')
+#3 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('/home/diethxvo/...')
+#4 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\Cus...')
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\Cus...')
+#6 /home/diethxvo/dietaholics.com/system/ in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php on line 10
+[23-Nov-2021 01:48:20 America/Chicago] PHP Fatal error:  CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '/home/diethxvo/dietaholics.com/public/SCRIPT/apl_core_configuration.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php on line 10
+[23-Nov-2021 05:25:25 America/Chicago] PHP Warning:  Uncaught ErrorException: require_once(/home/diethxvo/dietaholics.com/public/SCRIPT/apl_core_configuration.php): failed to open stream: No such file or directory in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php:10
+Stack trace:
+#0 /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(/h...', '/home/diethxvo/...', 10, Array)
+#1 /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php(10): require_once()
+#2 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(294): include_once('/home/diethxvo/...')
+#3 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('/home/diethxvo/...')
+#4 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\Cus...')
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\Cus...')
+#6 /home/diethxvo/dietaholics.com/system/ in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php on line 10
+[23-Nov-2021 05:25:25 America/Chicago] PHP Fatal error:  CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '/home/diethxvo/dietaholics.com/public/SCRIPT/apl_core_configuration.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php on line 10
+[23-Nov-2021 13:22:50 America/Chicago] PHP Warning:  Uncaught ErrorException: require_once(/home/diethxvo/dietaholics.com/public/SCRIPT/apl_core_configuration.php): failed to open stream: No such file or directory in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php:10
+Stack trace:
+#0 /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(/h...', '/home/diethxvo/...', 10, Array)
+#1 /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php(10): require_once()
+#2 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(294): include_once('/home/diethxvo/...')
+#3 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('/home/diethxvo/...')
+#4 /home/diethxvo/dietaholics.com/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\Cus...')
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\Cus...')
+#6 /home/diethxvo/dietaholics.com/system/ in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php on line 10
+[23-Nov-2021 13:22:50 America/Chicago] PHP Fatal error:  CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '/home/diethxvo/dietaholics.com/public/SCRIPT/apl_core_configuration.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/diethxvo/dietaholics.com/app/Filters/CustomFilter.php on line 10

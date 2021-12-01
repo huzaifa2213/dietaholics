@@ -1,0 +1,21 @@
+
+CI_ENVIRONMENT = production
+
+
+#--------------------------------------------------------------------
+# APP
+#--------------------------------------------------------------------
+
+ app.baseURL=url
+
+#--------------------------------------------------------------------
+# DATABASE
+#--------------------------------------------------------------------
+
+database.default.hostname=localhost
+database.default.database=database_name
+database.default.username=database_user
+database.default.password=database_pass 
+database.default.DBDriver=MySQLi
+
+
