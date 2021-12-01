@@ -74,7 +74,7 @@
                                                         if (!empty($getAssignedDriver)) {
                                                             $driver_status = getDriverOrderStatus($getAssignedDriver->driver_status);
                                                         ?>
-                                                            <td><label class="label label-success"><?= urldecode($getAssignedDriver->fullname) ?></label></td>
+                                                            <td><label class="label label-success"><?= urldecode($getAssignedDriver['fullname']) ?></label></td>
                                                         <?php  } else { ?>
                                                             <td>-</td>
                                                             <?php  }
@@ -124,4 +124,21 @@
         </div><!-- /# container-fluid -->
     </div><!-- /# main -->
 </div><!-- /# content wrap -->
+<script type="text/javascript">
+    $(document).on('change', '.change_state', function() {
+        var order_id = $(this).attr('data-id');
+        var driver_id = $(this).val();
+        $.ajax({
+            type: "POST",
+            url: "<?= base_url('owner/orders/assign_driver') ?>",
+            data: {
+                'order_id': order_id,
+                'driver_id': driver_id
+            },
+            success: function(data) {
+                window.location.reload();
+            }
+        });
 
+    });
+</script>

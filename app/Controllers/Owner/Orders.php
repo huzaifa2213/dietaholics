@@ -25,7 +25,7 @@ class Orders extends OwnerBaseController {
     {
         $data_array['order_id'] = $this->request->getVar('order_id');
         $data_array['driver_id'] = $this->request->getVar('driver_id');
-        $this->Sitefunction->insert(TBL_ORDER_DRIVERS, $data_array);
+        $this->driverOrderModel->insert($data_array);
 
         $data_array1['title'] = urlencode("Order Assigned");
         $data_array1['description'] = urlencode("Order #" . $data_array['order_id'] . " has been assigned to you.");
