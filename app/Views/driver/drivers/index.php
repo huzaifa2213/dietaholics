@@ -13,8 +13,8 @@
                     <div class="page-header">
                         <div class="page-title">
                             <ol class="breadcrumb text-right">
-                                <li><a href="<?= base_url('admin/dashboard') ?>"><?= lang('Admin.dashboard') ?></a></li>
-                                <li><a href="<?= base_url('admin/drivers') ?>"><?= lang('Admin.driver_list') ?></a></li>
+                                <li><a href="<?= base_url('driver/dashboard') ?>"><?= lang('Admin.dashboard') ?></a></li>
+                                <li><a href="<?= base_url('driver/drivers') ?>"><?= lang('Admin.driver_list') ?></a></li>
 
                             </ol>
                         </div>
@@ -29,8 +29,8 @@
                         <div class="card alert">
 
                             <div class="pull-right">
-                                <a class="btn btn-success btn-flat m-b-10 m-l-5" style="margin-right:15px!important" href="<?= base_url('admin/drivers') ?>/add"><?= lang('Admin.add_driver') ?></a>
-                                <input class="btn btn-danger btn-flat m-b-10 m-l-5" type="submit" onclick="multiple_delete('<?= base_url('admin/drivers') ?>/multiple_delete')" id="postme" value="<?= lang('Admin.delete') ?>" disabled="disabled">
+                                <a class="btn btn-success btn-flat m-b-10 m-l-5" style="margin-right:15px!important" href="<?= base_url('driver/drivers') ?>/add"><?= lang('Admin.add_driver') ?></a>
+                                <input class="btn btn-danger btn-flat m-b-10 m-l-5" type="submit" onclick="multiple_delete('<?= base_url('driver/drivers') ?>/multiple_delete')" id="postme" value="<?= lang('Admin.delete') ?>" disabled="disabled">
 
 
                             </div>

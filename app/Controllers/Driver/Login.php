@@ -3,7 +3,7 @@
 namespace App\Controllers\Driver;
 
 use App\Controllers\AdminBaseController;
-// use App\Models\DriverCompanyModel;
+use App\Models\DriverCompanyModel;
 
 class Login extends AdminBaseController
 {
@@ -11,7 +11,7 @@ class Login extends AdminBaseController
 	public function initController(\CodeIgniter\HTTP\RequestInterface $request, \CodeIgniter\HTTP\ResponseInterface $response, \Psr\Log\LoggerInterface $logger)
 	{
 		parent::initController($request, $response, $logger);
-		// $this->DriverCompanyModel = new DriverCompanyModel();
+		$this->DriverCompanyModel = new DriverCompanyModel();
 		
 	}
 
@@ -30,7 +30,7 @@ class Login extends AdminBaseController
 			$admin_find = $this->DriverCompanyModel->where(array('company_email_id' => urlencode($username), 'password' => md5($password)))->first();
 
 			
-			print_r($admin_find);exit;
+			// print_r($admin_find);exit;
 
 			if (!empty($admin_find)) {
 				$newdata = [

@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Controllers\Admin;
+namespace App\Controllers\Driver;
 
-use App\Controllers\AdminBaseController;
+use App\Controllers\AdminDriverController;
 
-class Drivers extends AdminBaseController
+class Drivers extends AdminDriverController
 {
 
     public function initController(\CodeIgniter\HTTP\RequestInterface $request, \CodeIgniter\HTTP\ResponseInterface $response, \Psr\Log\LoggerInterface $logger)
@@ -13,7 +13,7 @@ class Drivers extends AdminBaseController
     }
     public function index()
     {
-        
+        // die('hello');
         $data['results'] = $this->userModel->select('o.*, s.name as state_name, ct.name as city_name, c.name as country_name')->from(TBL_USERS . ' as o')->join(TBL_STATE . ' as s', "s.id=o.state_id")->join(TBL_CITY . ' as ct', "ct.id=o.city_id")->join(TBL_COUNTRY . " as c", "c.id=o.country_id")->where(array('o.status!=' => 9, 'o.user_type' => 2))->groupBy('o.id')->orderBy('o.id', 'desc')->find();
 
         $this->view_page('drivers/index', $data);
@@ -56,6 +56,7 @@ class Drivers extends AdminBaseController
 
     public function add()
     {
+        // print_r($this->session->admin_id);exit;
         $postData = $this->request->getVar();
         if ($postData && !empty($postData)) {
 
@@ -72,6 +73,7 @@ class Drivers extends AdminBaseController
             $data_array['identity_number'] = $this->request->getVar('identity_number');
             $data_array['license_number'] = $this->request->getVar('license_number');
             $data_array['gender'] = $this->request->getVar('gender');
+            $data_array['driver_company_id'] = $this->session->admin_id;
             $data_array['date_of_birth'] = date('Y-m-d', strtotime($this->request->getVar('date_of_birth')));
 
             if (!empty($_FILES['identity_image']['name'])) {
@@ -96,10 +98,12 @@ class Drivers extends AdminBaseController
 
 
             $data_array['user_type'] = 2;
+
+            // print_r($data_array);exit;
             $insert = $this->userModel->insert($data_array);
             if ($insert) {
                 $this->session->setFlashdata('success', lang('Admin.driver_added_successfully'));
-                return redirect()->to(base_url('admin/drivers'));
+                return redirect()->to(base_url('driver/drivers'));
             } else {
                 $this->session->setFlashdata('error', lang('Admin.error_try_again'));
             }

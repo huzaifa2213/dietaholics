@@ -44,7 +44,7 @@
                                             <th><input type='checkbox' name='select_all' id='select_all' value='' /></th>
 
                                             <th><?= lang('Admin.id') ?></th>
-                                            <th><?= lang('Admin.restaurant_name') ?></th>
+                                            <th><?= lang('Admin.owner_name') ?></th>
                                             <th><?= lang('Admin.company_name') ?></th>
                                             <th><?= lang('Admin.owner_name') ?></th>
                                             <th><?= lang('Admin.owner_mobile_number') ?></th>
@@ -67,7 +67,7 @@
                                                 <tr id="id_<?= $single['id'] ?>">
                                                     <td><input type='checkbox' name='checked_id' id='checkbox1' class='checkbox' value='<?= $single['id'] ?>' /></td>
                                                     <td><?= $single['id'] ?></td>
-                                                    <td><?= urldecode($single['restaurant_name']) ?></td>
+                                                    <td><?= urldecode($single['first_name']) ?></td>
                                                     <td><?= urldecode($single['company_name']) ?></td>
                                                     <td><?= urldecode($single['owner_name']) ?></td>
                                                     <td><?= urldecode($single['owner_mobile_number']) ?></td>

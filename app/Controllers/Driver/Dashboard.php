@@ -1,10 +1,10 @@
 <?php
-namespace App\Controllers\Admin;
-use App\Controllers\AdminBaseController;
+namespace App\Controllers\Driver;
+use App\Controllers\AdminDriverController;
 use App\Models\EarningModel;
 use App\Models\OwnerModel;
 
-class Dashboard extends AdminBaseController {
+class Dashboard extends AdminDriverController {
 
     public function initController(\CodeIgniter\HTTP\RequestInterface $request, \CodeIgniter\HTTP\ResponseInterface $response, \Psr\Log\LoggerInterface $logger)
 	{
