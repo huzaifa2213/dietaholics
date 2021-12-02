@@ -117,6 +117,7 @@ return [
 "drivers"=> "Drivers",
 "driver_list"=> "Driver List",
 "add_driver"=> "Add Driver",
+"add_driver_company"=> "Add Driver Company",
 "edit_driver"=> "Edit Driver",
 "identity_image"=> "Identity Image",
 "upload_identity_image"=> "Upload identity image",

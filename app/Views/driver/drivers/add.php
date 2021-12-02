@@ -14,8 +14,8 @@
                     <div class="page-header">
                         <div class="page-title">
                             <ol class="breadcrumb text-right">
-                                <li><a href="<?= base_url('admin/dashboard') ?>"><?=lang('Admin.dashboard')?></a></li>
-                                <li><a href="<?= base_url('admin/drivers') ?>"><?=lang('Admin.driver_list')?></a></li>
+                                <li><a href="<?= base_url('driver/dashboard') ?>"><?=lang('Admin.dashboard')?></a></li>
+                                <li><a href="<?= base_url('driver/drivers') ?>"><?=lang('Admin.driver_list')?></a></li>
                                 <li><a class="active" href="javascript:void(0)"><?=lang('Admin.add_driver')?></a></li>
                             </ol>
                         </div>
@@ -32,7 +32,7 @@
                             <div class="card-body">
                                 <div class="menu-upload-form">
 
-                                    <form class="form-horizontal" action="<?=base_url('admin/drivers/add') ?>" method="post" accept-charset="utf-8" id="addOwner" enctype="multipart/form-data">
+                                    <form class="form-horizontal" action="<?=base_url('driver/drivers/add') ?>" method="post" accept-charset="utf-8" id="addOwner" enctype="multipart/form-data">
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="form-group">

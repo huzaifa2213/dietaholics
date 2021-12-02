@@ -77,12 +77,29 @@
                                                             <option value=""><?= lang('Admin.restaurant') ?></option>
                                                             <?php
                                                             foreach ($resaurants as $row) { ?>
-                                                                <option <?=set_value('country_id')==$row['id']?"selected":""?> value="<?= $row['id']; ?>"><?= urldecode($row['name']); ?></option>
+                                                                <option  value="<?= $row['id']; ?>"><?= urldecode($row['name']); ?></option>
                                                             <?php } ?>
                                                         </select>
                                                     </div>
                                                 </div>
                                             </div>
+
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label class="col-sm-4 control-label"><?= lang('Admin.owner') ?>:</label>
+                                                    <div class="col-sm-8">
+                                                        <select class="form-control required" name="owner" id="owner" required>
+
+                                                            <option value=""><?= lang('Admin.owner') ?></option>
+                                                            <?php
+                                                            foreach ($owners as $row) { ?>
+                                                                <option value="<?= $row['id']; ?>"><?= urldecode($row['first_name'])." ".urldecode($row['last_name']); ?></option>
+                                                            <?php } ?>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+
                                           
                                       
                                             <div class="col-md-12">
@@ -125,6 +142,16 @@
                                                     </div>
                                                 </div>
                                             </div>
+
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label class="col-sm-4 control-label"><?= lang('Admin.password') ?>:</label>
+                                                    <div class="col-sm-8">
+                                                        <input id="password" class="form-control required" type="password" name="password" placeholder="<?= lang('Admin.password') ?>" required>
+                                                    </div>
+                                                </div>
+                                            </div>
+
                                             <div class="col-md-12">
                                                 <div class="form-group">
                                                     <div class="col-sm-offset-3 col-sm-9">

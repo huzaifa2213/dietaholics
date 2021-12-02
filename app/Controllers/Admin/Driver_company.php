@@ -6,6 +6,7 @@ use App\Controllers\AdminBaseController;
 
 use App\Models\RestaurantModel;
 use App\Models\DriverCompanyModel;
+use App\Models\OwnerModel;
 
 class Driver_company extends AdminBaseController
 {
@@ -16,6 +17,7 @@ class Driver_company extends AdminBaseController
         
         $this->RestaurantModel = new RestaurantModel();
         $this->DriverCompanyModel = new DriverCompanyModel();
+        $this->OwnerModel = new OwnerModel();
     }
     public function index()
     {
@@ -23,7 +25,7 @@ class Driver_company extends AdminBaseController
         // echo "hello";exit;
         
         // $data['results'] = $this->DriverCompanyModel->select('*')->find();
-        $data['results'] = $this->DriverCompanyModel->select('o.*, c.name as restaurant_name')->from(tbl_drivers_company . ' as o')->join(tbl_restaurants . " as c", "c.id=o.restaurant_id")->orderBy('o.id', 'desc')->find();
+        $data['results'] = $this->DriverCompanyModel->select('o.*, c.first_name,c.last_name')->from(tbl_drivers_company . ' as o')->join(TBL_OWNERS . " as c", "c.id=o.owner_id")->orderBy('o.id', 'desc')->find();
 
         //  $data['resaurants'] = $this->DriverCompanyModel->select('*')->find();
         // echo $this->DriverCompanyModel->getLastQuery()->getQuery();
@@ -80,10 +82,12 @@ class Driver_company extends AdminBaseController
             $data_array['owner_id_number'] = urlencode($this->request->getVar('owner_id_number'));
             $data_array['owner_mobile_number'] = $this->request->getVar('owner_mobile_number');
             $data_array['restaurant_id'] = $this->request->getVar('restaurant');
+            $data_array['owner_id'] = $this->request->getVar('owner');
             $data_array['address'] = $this->request->getVar('address');
             $data_array['identity_number'] = $this->request->getVar('identity_number');
-            $data_array['company_email_id'] = md5($this->request->getVar('company_email_id'));
+            $data_array['company_email_id'] = $this->request->getVar('company_email_id');
             $data_array['license_number'] = urlencode($this->request->getVar('license_number'));
+            $data_array['password'] = md5($this->request->getVar('password'));
 
             $data_array['company_contact_number'] = $this->request->getVar('company_contact_number');
 
@@ -100,8 +104,9 @@ class Driver_company extends AdminBaseController
 
         
         $data['resaurants'] = $this->RestaurantModel->select('id, name')->where(array('status' => 1))->find();
+        $data['owners'] = $this->OwnerModel->find();
         
-        // print_r($data['country']);exit;
+        // print_r($data['owners']);exit;
         $this->view_page('driver_company/add', $data);
     }
 

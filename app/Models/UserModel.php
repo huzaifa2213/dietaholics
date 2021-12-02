@@ -10,7 +10,7 @@ class UserModel extends BaseModel
     protected $returnType     = 'array';
     protected $useSoftDeletes = true;
 
-    protected $allowedFields = ['is_social_login', 'social_id', 'fullname', 'email', 'phone', 'password', 'image', 'status', 'token', 'city_id', 'state_id', 'country_id', 'pincode', 'address', 'device_token', 'last_login_date', 'otp', 'user_type', 'latitude', 'longitude', 'identity_number', 'identity_image', 'license_number', 'license_image', 'gender', 'age', 'date_of_birth', 'is_available', 'wallet_amount'];
+    protected $allowedFields = ['is_social_login', 'social_id', 'fullname', 'email', 'phone', 'password', 'image', 'status', 'token', 'city_id', 'state_id', 'country_id', 'pincode', 'address', 'device_token', 'last_login_date', 'otp', 'user_type', 'latitude', 'longitude', 'identity_number', 'identity_image', 'license_number', 'license_image', 'gender', 'age', 'date_of_birth', 'is_available', 'wallet_amount','driver_company_id','owner_id'];
 
     protected $useTimestamps = true;
     protected $createdField  = 'created';

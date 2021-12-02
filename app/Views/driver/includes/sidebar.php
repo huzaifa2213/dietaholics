@@ -8,46 +8,23 @@
 
                 <li><a class="sidebar-sub-toggle"><i class="fa fa-group"></i> <?= lang('Admin.users') ?> <span class="sidebar-collapse-icon ti-angle-down"></span></a>
                     <ul>
-                        <li><a href="<?= base_url('admin/customers') ?>"><?= lang('Admin.customers') ?></a></li>
-                        <li><a href="<?= base_url('admin/drivers') ?>"><?= lang('Admin.drivers') ?></a></li>
-                        <li><a href="<?= base_url('admin/owners') ?>"><?= lang('Admin.restaurant_owners') ?></a></li>
+                        <!-- <li><a href="<?= base_url('admin/customers') ?>"><?= lang('Admin.customers') ?></a></li> -->
+                        <li><a href="<?= base_url('driver/drivers') ?>"><?= lang('Admin.drivers') ?></a></li>
+                        <!-- <li><a href="<?= base_url('admin/owners') ?>"><?= lang('Admin.restaurant_owners') ?></a></li> -->
 
                     </ul>
                 </li>
                 
-                <li><a class="sidebar-sub-toggle"><i class="fa fa-group"></i> <?= lang('Admin.driver_company') ?> <span class="sidebar-collapse-icon ti-angle-down"></span></a>
-                    <ul>
-                        <li><a href="<?= base_url('admin/driver_company') ?>"><?= lang('Admin.driver_company') ?></a></li>
-                      
-
-                    </ul>
-                </li>
-
-                <li><a class="sidebar-sub-toggle"><i class="fa fa-clipboard"></i> <?= lang('Admin.menu') ?> <span class="sidebar-collapse-icon ti-angle-down"></span></a>
-                    <ul>
-
-                        <li><a href="<?= base_url('admin/categories') ?>"><?= lang('Admin.categories') ?></a></li>
-                        <li><a href="<?= base_url('admin/subcategories') ?>"><?= lang('Admin.Products') ?></a></li>
-
-                    </ul>
-                </li>
+              
                 
                 
                 
-                <li><a class="sidebar-sub-toggle"><i class="fa fa-map-marker"></i> <?= lang('Admin.locations') ?> <span class="sidebar-collapse-icon ti-angle-down"></span></a>
-                    <ul>
-                        <li><a href="<?= base_url('admin/country') ?>"><?= lang('Admin.countries') ?></a></li>
-                        <li><a href="<?= base_url('admin/state') ?>"><?= lang('Admin.states') ?></a></li>
-                        <li><a href="<?= base_url('admin/city') ?>"><?= lang('Admin.cities') ?></a></li>
-
-                    </ul>
-                </li>
                 <li><a href="<?= base_url('admin/notifications') ?>"><i class="fa fa-envelope"></i> <?= lang('Admin.push_notifications') ?> </a></li>
-                <li><a href="<?= base_url('admin/coupons') ?>"><i class="fa fa-tags"></i> <?= lang('Admin.coupons') ?> </a></li>
+                <!-- <li><a href="<?= base_url('admin/coupons') ?>"><i class="fa fa-tags"></i> <?= lang('Admin.coupons') ?> </a></li>
                 <li><a href="<?= base_url('admin/orders') ?>"><i class="fa fa-truck"></i> <?= lang('Admin.orders') ?> </a></li>
                 <li><a href="<?= base_url('admin/restaurants') ?>"><i class="fa fa-cutlery"></i><?= lang('Admin.restaurants') ?></a></li>
                 <li><a href="<?= base_url('admin/settings') ?>"><i class="ti-settings"></i><?= lang('Admin.master_settings') ?></a></li>
-                <li><a href="<?= base_url('admin/pages') ?>"><i class="ti-settings"></i><?= lang('Admin.pages') ?></a></li>
+                <li><a href="<?= base_url('admin/pages') ?>"><i class="ti-settings"></i><?= lang('Admin.pages') ?></a></li> -->
 
 
             </ul>

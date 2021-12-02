@@ -11,7 +11,7 @@ class DriverCompanyModel extends Model
     protected $returnType     = 'array';
     protected $useSoftDeletes = false;
 
-    protected $allowedFields = ['company_name', 'owner_name', 'owner_mobile_number', 'restaurant_id', 'identity_number', 'owner_id_number', 'company_email_id', 'status', 'license_number', 'company_contact_number', 'address','password'];
+    protected $allowedFields = ['company_name', 'owner_name', 'owner_mobile_number', 'restaurant_id', 'identity_number', 'owner_id_number', 'company_email_id', 'status', 'license_number', 'company_contact_number', 'address','password','owner_id'];
 
     protected $useTimestamps = true;
     protected $createdField  = 'created';
